@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+header {
+  padding-top: 1rem;
+  background: white; }
+  header .logo:hover {
+    transform: scale(1.45); }
+  header .barra {
+    padding-left: 4rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444; }
+
+  .index{
+    background-color: rgb(250, 220, 220);}
+
+h1 {
+  padding: 3rem;
+  text-align: center;
+  margin-bottom: 3rem; 
+  color: white;
+  text-transform: uppercase;
+  text-shadow: black;
+  font-style: oblique;}
+
+h5 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-top: 3rem;
+  margin-left: 1rem;
+  color: white; }
+
+h6 {
+  padding: 0.5rem;
+  font-style: oblique; }
+
+/*---------------------------------------------------------------------------HOME-------------------------------------------------------------------------------------*/
+
+.carousel-item {
+  max-width: 100%;
+  max-height: 55vh;
+  background-color: white; 
+  object-fit: fill; }
+
+.obra {
+  padding-bottom: 4rem;
+  text-align: center; }
+  .obra div .icono {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    margin-bottom: 45px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.5s;
+    border-style: groove; }
+    .obra div .icono:hover {
+      box-shadow: 0px 0 30px #fdc5c5;
+      transform: scale(1.45); }
+
+/*---------------------------------------------------------------------------QUIENES SOMOS-----------------------------------------------------------------------------*/
+.letra{
+  padding: 3rem;
+  text-align: center;
+  margin-bottom: 3rem; 
+  font-style: oblique;
+ color: black;}
+.quienes {
+  padding:4rem;
+  background-color: rgb(250, 220, 220); }
+  .quienes .container {
+    background-color: white;
+
+    height: auto; }
+    .quienes .container p {
+      text-align: left;
+      font-style: italic;
+      color: grey;
+      padding-left: 40px; }
+
+/*--------------------------------------------------------------------------------TRATAMIENTOS-------------------------------------------------------------------------*/
+.fondo {
+  padding-top: 4rem;
+  background-image: url(https://st.depositphotos.com/1746419/1324/v/600/depositphotos_13248197-stock-illustration-classic-wallpaper-in-pink.jpg); }
+
+.tratamientos .item {
+  margin-bottom: 30px; }
+
+.tratamientos li {
+  margin: 15px;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  background: #fff;
+  margin-bottom: 5px;
+  border-radius: 12px; }
+
+.tratamientos li:hover {
+  background: rosybrown; }
+
+a {
+  color: grey;
+  text-decoration: none; }
+
+a:hover {
+  color: white; }
+
+h6 {
+  padding: 0.5rem;
+  font-style: oblique;
+  margin-bottom: 2rem; }
+
+.cartas {
+  padding-bottom: 11rem;
+  padding-top: 2rem; }
+
+.p {
+  background-color: white;
+  width: 300px;
+  height: 460px;
+  margin: 1rem; }
+
+.fotos {
+  width: 300px;
+  height: 222.5px;
+ padding: 1rem; }
+
+.tratamientos #filtros {
+  margin-left: 35px;
+  text-align: center; }
+
+.tratamientos .especificaciones {
+  position: relative;
+  overflow: hidden; }
+
+.tratamientos .especificaciones:hover {
+  box-shadow: 0px 120px 120px rgba(0, 0, 0, 0.16);
+  transform: scale(1.02); }
+
+.tratamientos .especificaciones:hover p {
+  transform: scale(1.1);
+  background-color: #8f6565; }
+
+.tratamientos .especificaciones p {
+  margin-left: 6rem;
+  background-color: rosybrown;
+  border: rosybrown; }
+
+.distancia {
+  padding-top: 6rem;
+  padding-bottom: 3rem; }
+
+/*-------------------------------------------------------------------------------Contactos-----------------------------------------------------------------------------*/
+.fondocontacto {
+  background-color: rgb(250, 220, 220);
+  background-size: auto; }
+  .fondocontacto .opciones {
+    margin-bottom: 1rem;
+    background-color: white;
+    padding: 2rem;
+    border: 6px inset; }
+    .fondocontacto .opciones:hover {
+      box-shadow: 0px 120px 120px rgba(0, 0, 0, 0.16);
+      border: 10px inset; }
+    .fondocontacto .opciones .info h3 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 20px;
+      color: #666;
+      font-weight: 700; }
+  .fondocontacto .formulario {
+    margin-bottom: 20px; }
+    .fondocontacto .formulario button {
+      background: #fdc5c5;
+      border: #fdc5c5;
+      padding: 10px 30px;
+      margin: 1rem;
+      color: grey; }
+      .fondocontacto .formulario button:hover {
+        background: rosybrown;
+        color: white; }
+
+#footer {
+  background: #918f8f;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px; }
+  #footer .footer-arriba {
+    background: #ada7a7;
+    padding: 60px 0 30px 0; }
+    #footer .footer-arriba .sociales a {
+      display: inline-block;
+      background: #fdc5c5;
+      padding: 8px;
+      margin-left: 14px;
+      margin-right: 8px;
+      border-radius: 50%;
+      text-align: center;
+      width: 36px;
+      height: 36px; }
+      #footer .footer-arriba .sociales a:hover {
+        transform: scale(1.5); }
+    #footer .footer-arriba h4 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      padding-top: 20px; }
+    #footer .footer-arriba .promociones form {
+      margin-top: 30px;
+      background: #fff;
+      padding: 6px 10px;
+      position: relative;
+      border-radius: 4; }
+      #footer .footer-arriba .promociones form input[type="email"] {
+        border: 0;
+        padding: 4px;
+        width: calc(100% - 110px); }
+      #footer .footer-arriba .promociones form input[type="submit"] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        border: 0;
+        background: none;
+        font-size: 16px;
+        padding: 0 20px;
+        background: #fdc5c5;
+        color: white; }
+        #footer .footer-arriba .promociones form input[type="submit"]:hover {
+          background: #cf6c6c;
+          text-transform: uppercase; }
+  #footer .copyright {
+    text-align: center;
+    padding-top: 30px; }
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;}
+      

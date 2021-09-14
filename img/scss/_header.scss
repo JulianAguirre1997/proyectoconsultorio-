@@ -1,0 +1,17 @@
+header {
+    padding-top: 1rem;
+    background:white;
+  .logo{
+    &:hover {
+      transform: scale(1.45);
+    }
+    
+   } 
+   .barra{
+    padding-left:4rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+  }
+  
+}
+  
